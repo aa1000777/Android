@@ -3,3 +3,6 @@
 git commit -m "说明"
 
 git push -u origin master     //还记的这个别名吗  origin  这个别名就是你用第一种方法首次 向 GITHUB提交代码 你用的 别名
+
+%1
+再改一下下

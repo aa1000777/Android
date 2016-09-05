@@ -1,5 +1,7 @@
+@echo off
+echo "Android项目更新!"
 git add .
-
-git commit -m 就是看下效果
-
+set /p tmp=请输入更新日志：
+git commit -m %tmp%
 git push -u origin master
+pause
